@@ -32,4 +32,4 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install -r requirements.txt
-      - run: pytest --cov=tw_youtrack --cov-fail-under=100
+      - run: pytest --cov=tw_kaiten --cov-fail-under=100
